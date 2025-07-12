@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>SteppeStays</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta
+            name="keywords"
+            content="инвестиции, гостиничная недвижимость, Казахстан, отели, доходная недвижимость, управление отелями, юридическое сопровождение, покупка отеля, анализ рынка, инвестиционные объекты"
+        />
+        <meta
+            name="description"
+            content="Откройте для себя наши профессиональные услуги в сфере инвестиций в гостиничную недвижимость в Казахстане. Подберите доходный объект, получите консультации и начните получать прибыль с надежных вложений."
+        />
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div
+                class="spinner-border text-primary"
+                style="width: 3rem; height: 3rem"
+                role="status"
+            >
+                <span class="sr-only">Загрузка...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar Start -->
+        <nav
+            class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 px-4 px-lg-5"
+        >
+            <a href="index.html" class="navbar-brand d-flex align-items-center">
+                <h2 class="m-0 text-primary">SteppeStays</h2>
+            </a>
+            <button
+                type="button"
+                class="navbar-toggler"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-4 py-lg-0">
+                    <a href="index.html" class="nav-item nav-link active"
+                        >Главная</a
+                    >
+                    <a href="about.html" class="nav-item nav-link">О Нас</a>
+                    <a href="faq.html" class="nav-item nav-link">Каталог</a>
+                    <a href="catalog.html" class="nav-item nav-link">Проекты</a>
+                    <a href="contact.html" class="nav-item nav-link"
+                        >Контакты</a
+                    >
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Carousel Start -->
+        <div class="container-fluid p-0 pb-5">
+            <div class="owl-carousel header-carousel position-relative">
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="img/carousel-1.jpg" alt="" />
+                    <div class="carousel-inner">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-lg-8 text-center">
+                                    <h1
+                                        class="display-3 text-white animated slideInDown mb-4"
+                                    >
+                                        Инвестируйте в гостиничную недвижимость
+                                    </h1>
+                                    <p class="fs-5 text-white mb-4 pb-2">
+                                        Получайте стабильный доход от отелей,
+                                        апартаментов и туристических комплексов
+                                        в Казахстане. Уникальные инвестиционные
+                                        возможности в растущем регионе.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="img/carousel-2.jpg" alt="" />
+                    <div class="carousel-inner">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-lg-8 text-center">
+                                    <h1
+                                        class="display-3 text-white animated slideInDown mb-4"
+                                    >
+                                        Проекты с высоким потенциалом роста
+                                    </h1>
+                                    <p class="fs-5 text-white mb-4 pb-2">
+                                        Мы предлагаем тщательно отобранные
+                                        гостиничные объекты в туристически
+                                        привлекательных зонах. Надёжное
+                                        управление, прозрачные условия и
+                                        поддержка экспертов.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="img/carousel-3.jpg" alt="" />
+                    <div class="carousel-inner">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-lg-8 text-center">
+                                    <h1
+                                        class="display-3 text-white animated slideInDown mb-4"
+                                    >
+                                        Долгосрочные инвестиции с доходом
+                                    </h1>
+                                    <p
+                                        class="fs-5 fw-medium text-white mb-4 pb-2"
+                                    >
+                                        Получайте прибыль от арендного бизнеса,
+                                        участвуйте в развитии гостиничной
+                                        отрасли и пользуйтесь налоговыми
+                                        преимуществами в Казахстане.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+        <!-- About Start -->
+        <div class="container-fluid overflow-hidden my-5 px-lg-0">
+            <div class="container about px-lg-0">
+                <div class="row g-0 mx-lg-0">
+                    <div class="col-lg-6 ps-lg-0" style="min-height: 400px">
+                        <div class="position-relative h-100">
+                            <img
+                                class="position-absolute img-fluid w-100 h-100"
+                                src="img/approach.jpg"
+                                style="object-fit: cover"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 about-text py-5 wow fadeIn"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="p-lg-5 pe-lg-0">
+                            <h1 class="display-5 mb-4">
+                                Почему выбирают SteppeStays?
+                            </h1>
+                            <p class="mb-4 pb-2">
+                                SteppeStays специализируется на инвестициях в
+                                гостиничную недвижимость. Наша команда
+                                анализирует рынок, оценивает риски и
+                                сопровождает инвесторов на каждом этапе: от
+                                выбора объекта до получения прибыли. Казахстан
+                                сегодня — это стратегическое направление для
+                                роста туризма и гостиничного бизнеса.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Feature Start -->
+        <div class="container-fluid overflow-hidden my-5 px-lg-0">
+            <div class="container feature px-lg-0">
+                <div class="row g-0 mx-lg-0">
+                    <div
+                        class="col-lg-6 feature-text py-5 wow fadeIn"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="p-lg-5 ps-lg-0">
+                            <h1 class="display-5 mb-5">
+                                Ваши возможности с SteppeStays
+                            </h1>
+                            <p class="mb-4 pb-2">
+                                Откройте доступ к лучшим инвестиционным проектам
+                                в сегменте гостиничной недвижимости. С нами вы
+                                инвестируете в объекты с проверенной
+                                окупаемостью и профессиональным управлением.
+                            </p>
+                            <div class="row g-4">
+                                <div class="col-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="ms-4">
+                                            <p class="text-primary mb-2">
+                                                Объекты
+                                            </p>
+                                            <h5 class="mb-0">
+                                                Отели и базы отдыха
+                                            </h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="ms-4">
+                                            <p class="text-primary mb-2">
+                                                Партнёры
+                                            </p>
+                                            <h5 class="mb-0">
+                                                Надёжные девелоперы
+                                            </h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="ms-4">
+                                            <p class="text-primary mb-2">
+                                                Прибыль
+                                            </p>
+                                            <h5 class="mb-0">Арендный доход</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="ms-4">
+                                            <p class="text-primary mb-2">
+                                                Поддержка
+                                            </p>
+                                            <h5 class="mb-0">
+                                                Юристы и аналитики
+                                            </h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 pe-lg-0" style="min-height: 400px">
+                        <div class="position-relative h-100">
+                            <img
+                                class="position-absolute img-fluid w-100 h-100"
+                                src="img/feature.jpg"
+                                style="object-fit: cover"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Feature End -->
+
+        <!-- Facts Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-4">
+                    <div
+                        class="col-md-6 col-lg-4 wow fadeIn"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="h-100 bg-dark p-4 p-xl-5">
+                            <h5 class="text-white">Инвестпроекты в горах</h5>
+                            <hr class="w-25" />
+                            <span>
+                                Привлекательные гостиничные комплексы в
+                                популярных курортных зонах. Высокая доходность
+                                за счёт круглогодичного турпотока. Оптимальные
+                                условия для инвесторов с разным уровнем
+                                капитала.
+                            </span>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-4 wow fadeIn"
+                        data-wow-delay="0.3s"
+                    >
+                        <div class="h-100 bg-dark p-4 p-xl-5">
+                            <h5 class="text-white">Городские гостиницы</h5>
+                            <hr class="w-25" />
+                            <span>
+                                Перспективные инвестиции в отели бизнес-класса и
+                                апарт-отели в крупных городах. Стабильная
+                                аренда, корпоративные клиенты и поддержка в
+                                управлении объектами.
+                            </span>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-4 wow fadeIn"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="h-100 bg-dark p-4 p-xl-5">
+                            <h5 class="text-white">Базы отдыха и резорты</h5>
+                            <hr class="w-25" />
+                            <span>
+                                Объекты на берегу озёр и в степных районах —
+                                идеальны для семейного туризма и экотуров.
+                                Уникальные концепции и растущий внутренний спрос
+                                делают их особенно прибыльными.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Facts End -->
+
+        <!-- Blog Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 class="display-5">
+                        Новости и аналитика рынка гостиничной недвижимости
+                    </h1>
+                    <p class="mb-5">
+                        Следите за последними тенденциями инвестиций в отельную
+                        недвижимость. Мы публикуем статьи о доходности,
+                        юридических аспектах и новых проектах, доступных для
+                        инвесторов.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div
+                        class="col-lg-6 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="team-item">
+                            <div class="overflow-hidden position-relative">
+                                <img
+                                    style="
+                                        width: 100%;
+                                        height: 400px;
+                                        object-fit: cover;
+                                    "
+                                    class="img-fluid"
+                                    src="img/blog-1.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="text-center p-4">
+                                <h5 class="mb-0">
+                                    Курортные комплексы в Алматинской области
+                                </h5>
+                                <span>
+                                    Рост внутреннего туризма делает инвестиции в
+                                    базы отдыха особенно выгодными. Мы
+                                    рассмотрим особенности спроса,
+                                    рентабельность и перспективы развития таких
+                                    объектов.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.7s"
+                    >
+                        <div class="team-item">
+                            <div class="overflow-hidden position-relative">
+                                <img
+                                    style="
+                                        width: 100%;
+                                        height: 400px;
+                                        object-fit: cover;
+                                    "
+                                    class="img-fluid"
+                                    src="img/blog-2.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="text-center p-4">
+                                <h5 class="mb-0">
+                                    Мини-отели в центре мегаполисов
+                                </h5>
+                                <span>
+                                    Небольшие отели в деловых районах показывают
+                                    высокую загрузку и стабильный доход. В
+                                    статье — примеры объектов и обзор доходности
+                                    по регионам Казахстана.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog End -->
+
+        <!-- NEWS Start -->
+        <div class="container-fluid p-0 pb-5">
+            <div class="owl-carousel news-carousel position-relative">
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="img/news-1.jpg" alt="" />
+                    <div class="carousel-inner">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-lg-8 text-center">
+                                    <h1
+                                        class="display-3 text-white animated slideInDown mb-4"
+                                    >
+                                        Последние инвестиционные предложения
+                                    </h1>
+                                    <p class="fs-5 text-white mb-4 pb-2">
+                                        Обзор новых объектов гостиничной
+                                        недвижимости, доступных для
+                                        инвестирования. Узнайте о локации,
+                                        условиях и прогнозируемой доходности.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="img/news-2.jpg" alt="" />
+                    <div class="carousel-inner">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-lg-8 text-center">
+                                    <h1
+                                        class="display-3 text-white animated slideInDown mb-4"
+                                    >
+                                        Экспертные обзоры и прогнозы
+                                    </h1>
+                                    <p class="fs-5 text-white mb-4 pb-2">
+                                        Мнение аналитиков и девелоперов о
+                                        текущем состоянии и будущем рынка
+                                        гостиниц. Что ждёт инвесторов в
+                                        ближайшие 5 лет?
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="img/news-3.jpg" alt="" />
+                    <div class="carousel-inner">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-lg-8 text-center">
+                                    <h1
+                                        class="display-3 text-white animated slideInDown mb-4"
+                                    >
+                                        Мероприятия и презентации объектов
+                                    </h1>
+                                    <p
+                                        class="fs-5 fw-medium text-white mb-4 pb-2"
+                                    >
+                                        Следите за оффлайн и онлайн событиями:
+                                        дни открытых дверей, экскурсии по
+                                        действующим отелям и презентации новых
+                                        проектов для инвесторов.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- NEWS End -->
+
+        <section
+            class="section section-tech bg-light-primary"
+            id="section-tech"
+        >
+            <div class="container">
+                <ul class="tech-list list-unstyled">
+                    <li class="tech-list__item tech-list__title">
+                        <h2 class="h2 section-title mb-0">
+                            Технические характеристики инвестиций в гостиничную
+                            недвижимость Казахстана
+                        </h2>
+                    </li>
+                    <li class="tech-list__item">
+                        <div class="tech-list__item--img">
+                            <img src="img/08/1-1.svg" alt="" />
+                        </div>
+                        <div>
+                            <div class="tech-list__item--title">
+                                Этап строительства
+                            </div>
+                            1 очередь
+                        </div>
+                    </li>
+                    <li class="tech-list__item">
+                        <div class="tech-list__item--img">
+                            <img src="img/08/3-1.svg" alt="" />
+                        </div>
+                        <div>
+                            <div class="tech-list__item--title">Объекты</div>
+                            1 корпус
+                        </div>
+                    </li>
+                    <li class="tech-list__item">
+                        <div class="tech-list__item--img">
+                            <img src="img/08/9-1.svg" alt="" />
+                        </div>
+                        <div>
+                            <div class="tech-list__item--title">
+                                Технология строительства
+                            </div>
+                            Монолитно-каркасная конструкция
+                        </div>
+                    </li>
+                    <li class="tech-list__item">
+                        <div class="tech-list__item--img">
+                            <img src="img/08/6-1.svg" alt="" />
+                        </div>
+                        <div>
+                            <div class="tech-list__item--title">
+                                Внешняя отделка
+                            </div>
+                            Фасадные системы со стеклением
+                        </div>
+                    </li>
+                    <li class="tech-list__item">
+                        <div class="tech-list__item--img">
+                            <img src="img/08/7-1.svg" alt="" />
+                        </div>
+                        <div>
+                            <div class="tech-list__item--title">
+                                Наружные стены
+                            </div>
+                            Газобетонные блоки
+                        </div>
+                    </li>
+                    <li class="tech-list__item">
+                        <div class="tech-list__item--img">
+                            <img src="img/08/8-1.svg" alt="" />
+                        </div>
+                        <div>
+                            <div class="tech-list__item--title">Утепление</div>
+                            Комбинированное: минеральная вата и пенополистирол
+                        </div>
+                    </li>
+                    <li class="tech-list__item">
+                        <div class="tech-list__item--img">
+                            <img src="img/08/5-1.svg" alt="" />
+                        </div>
+                        <div>
+                            <div class="tech-list__item--title">
+                                Количество апартаментов
+                            </div>
+                            154 номера
+                        </div>
+                    </li>
+                    <li class="tech-list__item">
+                        <div class="tech-list__item--img">
+                            <img src="img/08/4-1.svg" alt="" />
+                        </div>
+                        <div>
+                            <div class="tech-list__item--title">
+                                Высота потолков
+                            </div>
+                            2,7 метра
+                        </div>
+                    </li>
+                    <li class="tech-list__item">
+                        <div class="tech-list__item--img">
+                            <img src="img/08/10-1.svg" alt="" />
+                        </div>
+                        <div>
+                            <div class="tech-list__item--title">
+                                Состояние апартаментов
+                            </div>
+                            Полный ремонт с мебелью и техникой
+                        </div>
+                    </li>
+                    <li class="tech-list__item">
+                        <div class="tech-list__item--img">
+                            <img src="img/08/11-1.svg" alt="" />
+                        </div>
+                        <div>
+                            <div class="tech-list__item--title">Отопление</div>
+                            Мультизональная система отопления и
+                            кондиционирования воздуха
+                        </div>
+                    </li>
+                    <li class="tech-list__item">
+                        <div class="tech-list__item--img">
+                            <img src="img/08/12-1.svg" alt="" />
+                        </div>
+                        <div>
+                            <div class="tech-list__item--title">Окна</div>
+                            Металлопластиковые окна с энергосберегающим стеклом
+                        </div>
+                    </li>
+                    <li class="tech-list__item">
+                        <div class="tech-list__item--img">
+                            <img src="img/08/14-1.svg" alt="" />
+                        </div>
+                        <div>
+                            <div class="tech-list__item--title">Лифты</div>
+                            2 пассажирских лифта
+                        </div>
+                    </li>
+                    <li class="tech-list__item">
+                        <div class="tech-list__item--img">
+                            <img src="img/08/17.svg" alt="" />
+                        </div>
+                        <div>
+                            <div class="tech-list__item--title">
+                                Инфраструктура
+                            </div>
+                            SPA-салон на первом этаже, ресторан на 16-м этаже,
+                            конференц-зал, лобби-зона, детская игровая комната
+                        </div>
+                    </li>
+                    <li class="tech-list__item">
+                        <div class="tech-list__item--img">
+                            <img src="img/08/13-1.svg" alt="" />
+                        </div>
+                        <div>
+                            <div class="tech-list__item--title">
+                                Состояние мест общего пользования
+                            </div>
+                            Дизайнерский ремонт
+                        </div>
+                    </li>
+                    <li class="tech-list__item">
+                        <div class="tech-list__item--img">
+                            <img src="img/08/18.svg" alt="" />
+                        </div>
+                        <div>
+                            <div class="tech-list__item--title">
+                                Лобби на первом этаже
+                            </div>
+                            Ресепшн, зона patio
+                        </div>
+                    </li>
+                    <li class="tech-list__item">
+                        <div class="tech-list__item--img">
+                            <img src="img/08/15-1.svg" alt="" />
+                        </div>
+                        <div>
+                            <div class="tech-list__item--title">Парковка</div>
+                            Подземная и наземная парковка
+                        </div>
+                    </li>
+                    <li class="tech-list__item">
+                        <div class="tech-list__item--img">
+                            <img src="img/08/16.svg" alt="" />
+                        </div>
+                        <div>
+                            <div class="tech-list__item--title">
+                                Безопасность
+                            </div>
+                            Видеонаблюдение круглосуточно, консьерж-сервис
+                        </div>
+                    </li>
+                    <li class="tech-list__item">
+                        <div class="tech-list__item--img">
+                            <img src="img/08/19.svg" alt="" />
+                        </div>
+                        <div>
+                            <div class="tech-list__item--title">
+                                Коммерческие помещения
+                            </div>
+                            Первый этаж с отдельными входами и выходами на улицу
+                            с высокой проходимостью
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Contact Start -->
+        <div class="container-fluid bg-light overflow-hidden px-lg-0">
+            <div class="container">
+                <div class="p-lg-5 ps-lg-0">
+                    <div class="section-title text-start">
+                        <h1 class="display-5 mb-4">Связаться с нами</h1>
+                    </div>
+                    <form action="thanks.html" method="GET">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        id="name"
+                                        required
+                                        placeholder="Ваше имя"
+                                    />
+                                    <label for="name">Ваше имя</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        id="surname"
+                                        required
+                                        placeholder="Ваша фамилия"
+                                    />
+                                    <label for="surname">Ваша фамилия</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input
+                                        type="email"
+                                        class="form-control"
+                                        id="email"
+                                        required
+                                        placeholder="Ваш email"
+                                    />
+                                    <label for="email">Ваш email</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <select
+                                        name="investment-type"
+                                        id=""
+                                        required
+                                        class="form-select"
+                                    >
+                                        <option value="resort">
+                                            Инвестиции в базы отдыха
+                                        </option>
+                                        <option value="urban-hotel">
+                                            Инвестиции в городские отели
+                                        </option>
+                                        <option value="aparthotel">
+                                            Инвестиции в апарт-отели
+                                        </option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button
+                                    class="btn btn-primary w-100 py-3"
+                                    type="submit"
+                                    id="submit"
+                                >
+                                    Отправить заявку
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid bg-dark text-secondary footer mt-5 py-5 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-4 col-md-6">
+                        <h5 class="text-white mb-4">SteppeStays</h5>
+                        <p>
+                            Платформа SteppeStays предоставляет уникальные
+                            возможности для инвестиций в гостиничную
+                            недвижимость. Узнайте больше о текущих предложениях,
+                            аналитике рынка и преимуществах вложений в отели по
+                            всей территории Казахстана.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h5 class="text-white mb-4">Контакты</h5>
+                        <p class="mb-2">
+                            <i class="fa fa-map-marker-alt me-3"></i>
+                            Төле би көшесі 55, Алматы 050000, Казахстан
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-phone-alt me-3"></i>
+                            steppe_stays@gmail.com
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-envelope me-3"></i>+77772632949
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h5 class="text-white mb-4">Быстрые ссылки</h5>
+                        <a class="btn btn-link" href="about.html">О нас</a>
+                        <a class="btn btn-link" href="terms-of-use.html"
+                            >Условия использования</a
+                        >
+                        <a class="btn btn-link" href="privacy-policy.html"
+                            >Политика конфиденциальности</a
+                        >
+                        <a class="btn btn-link" href="cookie-policy.html"
+                            >Политика Cookie</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">
+                    Согласие на использование Cookie
+                </h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Этот сайт использует cookie в соответствии с нашей
+                    <a href="cookie-policy.html">Политикой Cookie</a> для
+                    улучшения пользовательского опыта и предоставления
+                    актуальной информации об инвестициях в гостиничную
+                    недвижимость.
+                    <a href="privacy-policy.html">Узнать больше...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Принять</button>
+                <button class="cookie-button" id="declineBtn">Отклонить</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- Back to Top -->
+        <a
+            href="#"
+            class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"
+            ><i class="bi bi-arrow-up"></i
+        ></a>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
